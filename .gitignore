@@ -1,0 +1,45 @@
+# Ignore build output directories
+bin/
+obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.vsp
+*.pdb
+*.mdb
+*.opendb
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Visual Studio specific
+.vscode/
+.vs/
+
+# Package manager directories
+node_modules/
+
+# Dotnet specific
+*.db
+*.bak
+
+# IDE-specific configurations (JetBrains Rider, ReSharper)
+.idea/
+*.iml
+
+# Publish output
+publish/
+out/
+
+# Configuration files generated during debugging
+launchSettings.json
+
+# Runtime-generated files
+*.swp
+*.sln.docstates

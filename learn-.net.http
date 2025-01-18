@@ -1,0 +1,6 @@
+@learn_.net_HostAddress = http://localhost:5248
+
+GET {{learn_.net_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

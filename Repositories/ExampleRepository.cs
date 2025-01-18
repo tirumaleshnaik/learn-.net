@@ -1,19 +1,14 @@
-public interface IExampleRepository
+public class ExampleRepository
 {
-    Task<List<ExampleModel>> GetAllAsync();
-}
+    // private readonly ApplicationDbContext _context;
 
-public class ExampleRepository : IExampleRepository
-{
-    private readonly ApplicationDbContext _context;
+    // public ExampleRepository(ApplicationDbContext context)
+    // {
+    //     _context = context;
+    // }
 
-    public ExampleRepository(ApplicationDbContext context)
-    {
-        _context = context;
-    }
-
-    public async Task<List<ExampleModel>> GetAllAsync()
-    {
-        return await _context.Examples.ToListAsync();
-    }
+    // public async Task<List<ExampleModel>> GetAllExamplesAsync()
+    // {
+    //     return await _context.Examples.ToListAsync(); // Retrieve data from in-memory database
+    // }
 }
